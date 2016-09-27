@@ -1,1 +1,62 @@
 @import 'https://fonts.googleapis.com/css?family=Open+Sans';
+
+body{
+  background-image: url(back1.jpg) ;
+
+
+}
+
+h1 {
+  margin-left: 30px;
+  font-family: "Lucida Console", Courier, monospace;
+
+}
+#input{
+  width: 300px;
+  height: 50px;
+}
+
+#content {
+
+  width: 900px;
+  background: #DFDFDF;
+  padding: 30px;
+  font-family: sans-serif;
+  font-size: 18px;
+  color: #444;
+
+  border: grey;
+  text-align: center;
+  margin: 80px auto 1px;
+  border-radius: 20px;
+
+  height: 700px;
+}
+
+#calci{
+  margin-left: 20px;
+}
+
+#line1{
+  display: inline-block;
+  flex-wrap: wrap;
+}
+
+
+.butt {
+  width: 60px;
+  height: 30px;
+  margin: 5px;
+}
+#screen {
+  margin: 10px 20px;
+  width: 300px;
+  height: 50px;
+}
+
+#calculator{
+  background-color: #808080;
+  border: grey;
+  margin: auto 260px;
+  border-radius: 5px;
+}
