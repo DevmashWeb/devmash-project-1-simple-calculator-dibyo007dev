@@ -43,12 +43,12 @@ clear.addEventListener('click', clearf, false);
 // ---------------------- evaluate --------------------------
 
 var evalp = getElementById('evaluate');
-var evalt = document.getElementById('screen').value;
 
 var evalfunc = function() {
+  var evalt = document.getElementById('screen').getAttribute("value");
   var answer = eval(evalt);
-  clearf;
+  clearf();
   document.getElementById('screen').value = answer;
 }
 
-evalp.addEventListener('click',evalfunc, false);
+evalp.addEventListener('click', evalfunc, false);
