@@ -17,9 +17,7 @@ button.addEventListener("click",function(){
 });
 
 
-button.addEventListener("click", myFunc());
-
+button.getElementByClassName('butt').addEventListener("click", myFunc());
 function myFunc() {
-  this.getElementByClassName('butt');
   alert("its done ");
 }
