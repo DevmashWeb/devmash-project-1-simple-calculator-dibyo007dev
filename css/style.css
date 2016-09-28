@@ -1,7 +1,7 @@
 @import 'https://fonts.googleapis.com/css?family=Open+Sans';
 
 body{
-  background-image:url(images/back1.jpg);
+  background-image: url(images/back1.jpg);
 
 }
 
@@ -29,7 +29,7 @@ h1 {
   margin: 80px auto 1px;
   border-radius: 20px;
 
-  height: 700px;
+  height: 720px;
 }
 
 #calci{
@@ -48,12 +48,17 @@ h1 {
   margin: 5px;
 }
 #screen {
+  background-color: white;
+  border-radius: 2px;
+  text-align: right;
   margin: 10px 20px;
-  width: 300px;
+  width: 330px;
+  margin-top: 5px;
   height: 50px;
 }
 
 #calculator{
+  padding: 10px;
   background-color: #808080;
   border: grey;
   margin: auto 260px;
