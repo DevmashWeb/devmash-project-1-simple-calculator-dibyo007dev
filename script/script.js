@@ -23,3 +23,11 @@ var myFunction = function() {
 for (var i = 0; i < classname.length; i++) {
     classname[i].addEventListener('click', myFunction, false);
 }
+
+var clear = document.getElementById('clrscr');
+
+var clearf = function() {
+  document.getElementById('screen').value = "";
+}
+
+clear.addEventListener('click', clearf, false);
