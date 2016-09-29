@@ -46,7 +46,7 @@ var evalp = document.getElementById('evaluate');
 
 var evalfunc = function() {
   var evalt = document.getElementById('screen').getAttribute("value");
-  var answer = eval(evalt);
+  var answer = eval(evalt.toString());
   clearf();
   document.getElementById('screen').value = answer;
 }
