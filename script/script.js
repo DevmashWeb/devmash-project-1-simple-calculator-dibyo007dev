@@ -42,7 +42,7 @@ clear.addEventListener('click', clearf, false);
 
 // ---------------------- evaluate --------------------------
 
-var evalp = getElementById('evaluate');
+var evalp = document.getElementById('evaluate');
 
 var evalfunc = function() {
   var evalt = document.getElementById('screen').getAttribute("value");
