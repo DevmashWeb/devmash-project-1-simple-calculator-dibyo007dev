@@ -23,6 +23,7 @@ function myFunc() {
 var classname = document.getElementsByClassName("butt");
 var myFunction = function() {
     var attribute = this.getAttribute("value");
+    // console.log(attribute+1);
     document.getElementById('screen').value=document.getElementById('screen').value + attribute;
 };
 for (var i = 0; i < classname.length; i++) {
@@ -45,10 +46,14 @@ clear.addEventListener('click', clearf, false);
 var evalp = document.getElementById('evaluate');
 
 var evalfunc = function() {
+
+
   var evalt = document.getElementById('screen').getAttribute("value");
   var answer = eval(evalt.toString());
   clearf();
   document.getElementById('screen').value = answer;
+
+
 }
 
 evalp.addEventListener('click', evalfunc, false);
