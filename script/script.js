@@ -12,7 +12,7 @@ button.addEventListener("click",function(){
   outputBox.innerHTML=output;
 });
 
-// my faults ....................
+  // my faults ....................
 
 button.getElementByClassName('butt').addEventListener("click", myFunc());
 function myFunc() {
@@ -48,8 +48,8 @@ var evalp = document.getElementById('evaluate');
 var evalfunc = function() {
 
 
-  var evalt = document.getElementById('screen').getAttribute("value");
-  var answer = eval(evalt.toString());
+  var evalt = document.getElementById('screen').value;
+  var answer = eval(evalt.toString(6));
   clearf();
   document.getElementById('screen').value = answer;
 
